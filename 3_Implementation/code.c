@@ -1,7 +1,8 @@
+#include "compute.h"
 #include <stdio.h>
 
-unsigned long amount = 1000, deposit, withdraw;
-int choice, pin, k;
+unsigned long  amount = 1000, deposit, withdraw;
+int choice, pin=0, k;
 char transaction = 'y';
 
 void main()
@@ -43,7 +44,7 @@ void main()
 
     case 1:
 
-      printf("\n YOUR BALANCE IS TK : %lu ", amount);
+      balance(amount);
 
       break;
 
@@ -52,39 +53,18 @@ void main()
       printf("\n ENTER THE AMOUNT TO WITHDRAW: ");
 
       scanf("%lu", & withdraw);
-
-      if (withdraw % 100 != 0)
-
-      {
-
-        printf("\n PLEASE ENTER THE AMOUNT IN MULTIPLES OF 100");
-
-      } else if (withdraw > (amount - 500))
-      {
-
-        printf("\n INSUFFICENT BALANCE");
-      } else
-
-      {
-
-        amount = amount - withdraw;
-
-        printf("\n\n PLEASE COLLECT CASH");
-
-        printf("\n YOUR CURRENT BALANCE IS %lu", amount);
-      }
+      withdrawn(withdraw,amount);
+      amount = amount - withdraw;
 
       break;
 
     case 3:
-
       printf("\n ENTER THE AMOUNT TO DEPOSIT");
 
       scanf("%lu", & deposit);
 
+      depositen(deposit,amount);
       amount = amount + deposit;
-
-      printf("YOUR BALANCE IS %lu", amount);
 
       break;
 
