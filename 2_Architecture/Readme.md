@@ -8,4 +8,4 @@
 
 --- TBD Structural and Behavioural Diagram
 ![FeaturesLevelStructuralDiagram](https://github.com/devathimahesh2/STEPIN_ATM_BANKING/blob/main/2_Architecture/withdraw-cash.png)
-![FeaturesBehaviouralDiagram](https://github.com/devathimahesh2/STEPIN_ATM_BANKING/blob/main/2_Architecture/thumb-h8qb2bfs-4.png)
+![FeaturesLevelStructuralDiagram](https://github.com/devathimahesh2/STEPIN_ATM_BANKING/blob/main/2_Architecture/1d6eef6bd9644be0c9d42c8f190c5b60.png)
