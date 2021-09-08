@@ -29,5 +29,12 @@
 **It is useful for banking sectors and customers to deposit cash or to withdraw cash**
 
 # Detail requirements
--->Need of password of the user to withdraw , deposit money and to check the balance
--->As there is single account the password is 1520
+### High Level Requirements 
+| ID | Description | Status (Implemented/Future) | 
+| ----- | ----- | ---------|
+|HL01  |need of password is 1520|Implemented|
+### Low level Requirements
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | As there is single account the password is needed | HR01 | Implemented |
+
